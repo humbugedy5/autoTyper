@@ -1,0 +1,76 @@
+<package>
+   <job id="vbs">
+      <script language="VBScript">
+	set WshShell = WScript.CreateObject("WScript.Shell")
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+	WshShell.SendKeys(chr(&hAF))
+         WshShell.Run "chrome"
+	 WshShell.Run "winword"
+	 WshShell.Run "outlook"
+	 WshShell.Run "excel"
+	 WshShell.Run "powerpnt"
+	 WshShell.Run "msaccess"
+	 WshShell.Run "mspaint"
+	 WshShell.Run "explorer"
+	 WshShell.Run "notepad"
+         WScript.Sleep 100
+         WshShell.AppActivate "chrome"
+         WScript.Sleep 100
+         WshShell.SendKeys "https://www.youtube.com/watch?v=0LxtrLizkrU"
+         WScript.Sleep 500
+         WshShell.SendKeys "~"
+	 WshShell.SendKeys "^T"
+	 WshShell.SendKeys "The virus code has finished executing. No permanent damage has been done. Please remove this device from your computer. Be more careful next time."
+	 WshShell.SendKeys "~"
+      </script>
+   </job>
+
+</package>
